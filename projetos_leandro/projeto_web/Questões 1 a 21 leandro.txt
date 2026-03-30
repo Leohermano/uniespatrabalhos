@@ -1,0 +1,224 @@
+UNIESP – CENTRO UNIVERSITÁRIO
+CURSO: Ciência da Computação
+TURNO: Tarde
+UNIDADE CURRICULAR: Tecnologia para Front-end
+PROFESSOR: Leandro Melo
+Aluno: Leonardo Hermano Muniz de Macedo
+
+
+1.Ele informa ao navegador qual a especificação do código que está sendo usado no documento. Sendo obrigatório aparecer antes do <html>
+ 
+2.É uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web. Sendo adicionadas funções como de vídeo e áudio.
+
+3.
+A) A pasta raiz é a pasta principal onde ficam todos os arquivos de um site. É como a “base” do projeto: dentro dela estão os arquivos HTML. Quando alguém acessa um site, o servidor procura os arquivos a partir dessa pasta. Tudo que será exibido no site precisa estar dentro dela.
+B) O arquivo index.html é considerado principal porque a maioria dos servidores web está configurada para carregá-lo automaticamente quando alguém acessa o site sem especificar um arquivo.
+
+4.Caminhos de arquivos (file paths) são as formas de indicar onde um arquivo está localizado dentro da estrutura de pastas de um site. Eles são usados no desenvolvimento web para conectar arquivos entre si. Podendo ser caminhos relativos ou absolutos. 
+
+5.Um Radio Button, onde podemos selecionar apenas uma opção. Para obter a seleção exclusiva é necessário colocar o mesmo atributo “name”. Diferente do Radio Button, onde só é possível selecionar uma opção, o CheckBox serve para selecionarmos mais de uma opção.
+
+6.Como é possível escolher apenas uma opção, o que melhor se adequaria é o Radio Button.
+
+7.Esta tag serve para darmos nomes aos campos. Se passarmos o id do input no atributo “for”, estaremos indicando ao navegador que o Label é referente àquele campo. Quando o usuário clicar no texto do Label, o input receberá foco, permitindo que o usuário já entre com os dados.
+
+8. A tag <fieldset> serve para criar um um campo separado do formulário para uma melhor organização. E o <legend> serve para da um titulo a seção.
+
+9.O tipo “submit” é usado para que o usuário clique quando quiser enviar o formulário. O tipo “reset” serve para quando o usuário quiser reiniciar o formulário, ao clicar o formulário inteiro será apagado.O Button é um botão vazio, deve-se colocar sua função, podendo ser o submit e o reset.
+
+10.A tag <select> cria uma lista suspensa (dropdown) em um formulário. Dentro dela usamos a tag <option>, que representa cada opção da lista
+
+11.A tag <a> (âncora) serve para criar links entre páginas. Usa o atributo href para indicar o destino
+
+12.(código resumido)
+<a href="contato.html">
+  <button>Ir para Contato</button>
+</a>
+
+13.Tabelas HTML são usadas para organizar dados em linhas e colunas.
+
+14.<table> → cria a tabela
+<tr> - cria uma linha
+<td> - cria uma célula (dados)
+<th> - célula de título/cabeçalho
+
+15. <thead>, <tbody> e <tfoot>
+
+Essas tags organizam melhor a tabela:
+
+<thead> → cabeçalho
+<tbody> → corpo (dados principais)
+<tfoot> → rodapé (totais, resumos)
+
+16.colspan e rowspan
+
+Servem para mesclar células:
+
+colspan → ocupa várias colunas
+rowspan → ocupa várias linhas
+
+17.A tag <caption> adiciona um título à tabela.
+
+18.<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projeto</title>
+</head>
+
+<body>
+
+    <h1>Formulário de cadastro</h1>
+
+    <p>Preencha os dados</p>
+
+<form>
+Nome: <input type="text"><br>
+email: <input type="email"><br>
+data de nascimento: <input type="date"><br>
+Sexo: <br> 
+<input type="radio" name="sexo" value="masculino"/> Masculino <br>
+<input type="radio" name="sexo" value="feminino"/> Feminino <br> 
+<input type="radio" name="sexo" value="outro"/> Outro <br>     
+</form>
+<p1>Interreses</p1>
+<form>
+<input type="checkbox" name="tecnologia" checked/> Tecnologia <br>
+<input type="checkbox" name="educacao"/> Educação <br>
+<input type="checkbox" name="esportes"/> Esportes <br>
+<form>
+<input type= "submit" value= "Enviar" />
+<input type= "reset" value= "Limpar" />
+</form>
+</body>
+</html>
+
+19.
+<html>
+table border="1">
+
+<head>
+<title>Tabela de informações</title>
+</head>
+
+<body>
+<table border="1">
+<tr>
+
+<th>Nome:</th>
+<th>Idade</th>
+<th>Profissão</th>
+
+</tr>
+
+<tr>
+
+<td>Leo</td>
+
+<td>17</td>
+
+<td>Estudante</td>
+
+</tr>
+
+<tr>
+
+<td>Marina</td>
+
+<td>15</td>
+
+<td>Estudante</td>
+
+
+
+</table>
+
+</body>
+
+</html>
+
+20.<table border="1">
+
+<thead>
+
+<tr>
+
+<th>titulo 1</th>
+
+<th>titulo 2</th>
+
+<th>titulo 3</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Body1 linha1</td>
+
+<td>Body2 linha1</td>
+
+<td>Body3 linha1</td>
+
+</tr>
+
+<tr>
+
+<td>Body1 linha2</td>
+
+<td>Corpo2 linha2</td>
+
+<td>Corpo3 linha2</td>
+
+</tr>
+
+</tbody>
+
+<tfoot>
+
+<td>Rodapé 1</td>
+
+<td>Rodapé 2</td>
+
+<td>Rodapé 3</td>
+
+</tfoot>
+
+</table>
+21.
+<table border="1">
+
+<tr>
+
+<th>Nome</th>
+
+<th colspan="2">Telefones</th>
+
+</tr>
+
+<tr>
+
+<td>João</td>
+
+<td>8888-5555</td>
+
+<td>9999-9999</td>
+
+</tr>
+
+<tr>
+
+<td>Ricardo</td>
+
+<td>7777-7777</td>
+
+<td>1010-1010</td>
+
+</tr>
+
+</table>
+
+22.
